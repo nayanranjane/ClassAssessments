@@ -1,17 +1,23 @@
 ﻿
 
 
+
+
+
+
+
+
 int marksScored = Convert.ToInt32(Console.ReadLine());
 
-if(marksScored > 90)
+if (marksScored > 90)
 {
     Console.WriteLine("Distinction");
 }
-else if(marksScored > 75)
+else if (marksScored > 75)
 {
     Console.WriteLine("First Class ");
 }
-else if(marksScored> 35)
+else if (marksScored > 35)
 {
     Console.WriteLine("Pass");
 }
