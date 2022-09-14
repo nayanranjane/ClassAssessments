@@ -1,4 +1,9 @@
-﻿// Arrays in C Sharp
+﻿
+
+
+
+
+// Arrays in C Sharp
 
 
 int[] numberArray = new int[10];
@@ -21,7 +26,7 @@ for (int i = 0; i < numberArray.Length; i++)
     stringArray[i] = $"{i}. String Array";
 }
 
-for(int i = 0; i < stringArray.Length; i++)
+for (int i = 0; i < stringArray.Length; i++)
 {
     Console.WriteLine(stringArray[i]);
 }
