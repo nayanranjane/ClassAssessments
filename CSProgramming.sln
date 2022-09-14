@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Overflowing", "CS_Overfl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_TypeCasting", "CS_TypeCasting\CS_TypeCasting.csproj", "{D498BB59-7DAA-444F-8F10-0E49C77FD99C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Operators", "CS_Operators\CS_Operators.csproj", "{FA301D6E-E7D1-4E63-A41D-C227D8E5C5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Classes", "CS_Classes\CS_Classes.csproj", "{88004411-B06B-4D54-88D9-600D5662A7ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{D498BB59-7DAA-444F-8F10-0E49C77FD99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D498BB59-7DAA-444F-8F10-0E49C77FD99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D498BB59-7DAA-444F-8F10-0E49C77FD99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA301D6E-E7D1-4E63-A41D-C227D8E5C5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA301D6E-E7D1-4E63-A41D-C227D8E5C5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA301D6E-E7D1-4E63-A41D-C227D8E5C5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA301D6E-E7D1-4E63-A41D-C227D8E5C5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88004411-B06B-4D54-88D9-600D5662A7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88004411-B06B-4D54-88D9-600D5662A7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88004411-B06B-4D54-88D9-600D5662A7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88004411-B06B-4D54-88D9-600D5662A7ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
