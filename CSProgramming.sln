@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addition", "Addition\Addition.csproj", "{7809E0DE-39E3-4259-A951-C15D89E9A5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addition", "Addition\Addition.csproj", "{7809E0DE-39E3-4259-A951-C15D89E9A5FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction To CS", "Introduction To CS", "{242CDE21-9824-4EBB-BF3F-7BC776B8AB35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_World_Program", "Hello_World_Program\Hello_World_Program.csproj", "{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{7809E0DE-39E3-4259-A951-C15D89E9A5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7809E0DE-39E3-4259-A951-C15D89E9A5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7809E0DE-39E3-4259-A951-C15D89E9A5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47677ED4-ECE6-4D52-A7F7-EE0D61EC16CF} = {242CDE21-9824-4EBB-BF3F-7BC776B8AB35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45147D20-CB9B-4160-A22F-29D1BEDB07DB}
