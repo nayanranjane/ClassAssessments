@@ -21,3 +21,9 @@ for(int i = 0; i < concatinatedString.Length; i++)
 {
     Console.WriteLine(concatinatedString[i]);
 }
+
+
+// @ is used to neglate the / in the string
+
+
+
