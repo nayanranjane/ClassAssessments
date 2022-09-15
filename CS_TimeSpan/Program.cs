@@ -41,3 +41,15 @@ Console.WriteLine("Hour of the Timespan = " +timeSpan.Hours);
 Console.WriteLine("Minuts of the Timespan = "+timeSpan.Minutes);
 
 Console.WriteLine("Seconds of the Timespan = "+timeSpan.Seconds);
+
+// To Add the Additional value to the timespan 
+
+Console.WriteLine("By Adding the 2 hours 30 minuts and 40 second to the above timespan");
+
+Console.WriteLine(timeSpan);
+Console.WriteLine("After Adding the Hour values to the above span = " +timeSpan.Add(TimeSpan.FromHours(2)));
+
+Console.WriteLine("After Adding the Minuts values to the above span = " +timeSpan.Add(TimeSpan.FromMinutes(30)));
+
+Console.WriteLine("After Adding the Second value to the above span = " + timeSpan.Add(TimeSpan.FromSeconds(40)));
+
